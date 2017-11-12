@@ -16,7 +16,7 @@ publishDir = "../sdmirch.github.io"
   description = "Describe your website"
   copyright = "&copy;2017 Sera Mirchandani"
   sidebarAbout = [
-    "I am a data scientist with experience in applied math and engineering,excited to find insights from a sea of data using machine learning, statistical analysis, and data visualization."
+    "I am a data scientist with experience in applied math and engineering, excited to find insights from a sea of data using machine learning, statistical analysis, and data visualization."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -30,7 +30,7 @@ publishDir = "../sdmirch.github.io"
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "sera.mirchandani@gmail.com"
 
   # Nav links in the side bar
   [[params.navlinks]]
