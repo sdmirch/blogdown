@@ -14,7 +14,6 @@ Power-Middle influencers on Instagram are a more effective and authentic option 
 > Power-Middle influencers on Instagram are a more effective and authentic option for marketing niche products to targeted communities. I created a methodology to select, construct, and analyze community networks within Instagram. Elite Power-Middle influencers were identified using social centrality measures and sentiment analysis of captions. Technologies used include Python, NetworkX, MongoDB, Selenium, and vaderSentiment.
 
 ## Business Question
-
 Requesting promotion of a product from a celebrity with a large (millions) social media following is not just expensive - it is obvious to followers that they have been solicited to sponsor certain brands or items, and therefore seems less authentic. To market to a smaller, targeted audience, it is more affordable and effective to identify a “power-middle” influencer. These influencers will be more influential to their intimate and loyal following they have amassed.
 
 How do you find power-middle influencers who will be the most influential to the group of people you are trying to target?
@@ -29,9 +28,10 @@ How do you find power-middle influencers who will be the most influential to the
 
 ### Conceptualization:
 A social network graph (Digraph in NetworkX, graph_util/make_graph.py) is constructed using the influencers and followers. This graph can be used to identify power-middle influencers and other interesting features about the community.
--Number of nodes: 2268840
--Number of edges: 3582464
--Number of potential influencers: 1775
+
+* Number of nodes: 2268840
+* Number of edges: 3582464
+* Number of potential influencers: 1775
 
 ## Modeling
 
@@ -56,7 +56,9 @@ Those scores are weighted and summed to determine and overall score:
 
 ## Evaluation
 Performance was evaluated by:
- - Determining if top influencers were already endorsing products, meaning that industry experts had deemed them to be influencers already.
- - Checking if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
+
+> Determining if top influencers were already endorsing products, meaning that industry experts had deemed them to be influencers already.
+
+> Checking if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
 
 [1]: /img/portfolio/OverallScore.png
