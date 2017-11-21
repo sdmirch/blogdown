@@ -23,11 +23,11 @@ How do you find power-middle influencers who will be the most influential to the
 ### General Outline of Data Collection:
 
  - Choose a community: Take female climbers for instance.
- - Identify potential power-middle influencers: Find people who posted content with the hashtag #womenwhoclimb on Instagram (using requests, see webscrape_util/instascrape.py).
- - Estimate the rest of the community: Find people influenced by the influencers, therefore find people who followed these potential influencers (using selenium, see webscrape_util/followscrape.py).
+ - Identify potential power-middle influencers: Find people who posted content with the hashtag #womenwhoclimb on Instagram.
+ - Estimate the rest of the community: Find people influenced by the influencers, therefore find people who followed these potential influencers.
 
 ### Conceptualization:
-A social network graph (Digraph in NetworkX, graph_util/make_graph.py) is constructed using the influencers and followers. This graph can be used to identify power-middle influencers and other interesting features about the community.
+A social network graph is constructed using the influencers and followers. This graph can be used to identify power-middle influencers and other interesting features about the community.
 
 * Number of nodes: 2268840
 * Number of edges: 3582464
