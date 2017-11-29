@@ -13,10 +13,12 @@ Power-Middle influencers on Instagram are a more effective and authentic option 
 ## tl;dr
 > Power-Middle influencers on Instagram are a more effective and authentic option for marketing niche products to targeted communities. I created a methodology to select, construct, and analyze community networks within Instagram. Elite Power-Middle influencers were identified using social centrality measures and sentiment analysis of captions. Technologies used include Python, NetworkX, MongoDB, Selenium, and vaderSentiment.
 
-## Business Question
-Requesting promotion of a product from a celebrity with a large (millions) social media following is not just expensive - it is obvious to followers that they have been solicited to sponsor certain brands or items, and therefore seems less authentic. To market to a smaller, targeted audience, it is more affordable and effective to identify a “power-middle” influencer. These influencers will be more influential to their intimate and loyal following they have amassed.
+## Introduction
+Requesting promotion of a product from a celebrity with a large (millions) social media following is not just obscenely expensive - it is also obvious to followers that they have been solicited to sponsor certain brands or items, and therefore seems less authentic. To market to a smaller, targeted audience, it is more affordable and effective to identify a [“power-middle”](https://www.business2community.com/digital-marketing/power-middle-influencers-crushing-kim-kardashian-01515777#8OM20kRTpySksKoU.97) influencer. These power-middle influencers will be more influential to their intimate and loyal following they have amassed. If you are interested, check out some [examples](#examples) of power-middle influencers to get a better idea of who they are.
 
-How do you find power-middle influencers who will be the most influential to the group of people you are trying to target?
+How do you find power-middle influencers who will be the most influential to the group of people you are trying to target? 
+
+
 
 ## Data Understanding and Preparation
 
@@ -62,3 +64,13 @@ Performance was evaluated by:
 > Checking if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
 
 [1]: /img/portfolio/OverallScore.png
+
+## Want to see more?
+Check out the [code](https://github.com/sdmirch/instagram-influencer-graph) that made this project a reality.
+
+## Examples {#examples}
+Take a look at some of my favorite power-middle influencers:
+
+* [briannamadia](https://www.instagram.com/briannamadia/)
+* [negharfonooni](https://www.instagram.com/negharfonooni/)
+* [brokenpinestudio](https://www.instagram.com/brokenpinestudio/)
