@@ -13,7 +13,7 @@ publishDir = "../sdmirch.github.io"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
+  description = "Here be dragons..."
   copyright = "&copy;2017 Sera Mirchandani"
   sidebarAbout = [
     "I am a data scientist with experience in applied math, engineering, and consulting, excited to derive insights and data-driven business outcomes using machine learning, statistical analysis, and data visualization."
