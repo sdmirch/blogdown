@@ -20,57 +20,70 @@ How do you find power-middle influencers who will be the most influential to the
 
 
 
-## Data Understanding and Preparation
+## Understanding and Preparing Data
 
-### General Outline of Data Collection:
+Unfortunately there was no beautiful social-media dataset which would allow me to identify power-middle influencers, so I needed to collect the data myself. To do so, I narrowed the scope of the problem by choosing a community I wanted to target (take female climbers for instance). I then collected data on potential power-middle influencers by assuming people who posted content with a specific hashtag (#womenwhoclimb) were attempting to get their messages out into the universe. To estimate the rest of the community, I collected data about people who were influenced by the influencers -- therefore people who followed these potential power-middle influencers. I then amassed this data into an influencer-follower network. 
 
- - Choose a community: Take female climbers for instance.
- - Identify potential power-middle influencers: Find people who posted content with the hashtag #womenwhoclimb on Instagram.
- - Estimate the rest of the community: Find people influenced by the influencers, therefore find people who followed these potential influencers.
+Turns out, that network was pretty big - 2,268,840 nodes and 3,582,464 edges! However, there were only 1775 unique potential influencers (out of 5000 scraped posts with #womenwhoclimb). The next step was to figure out who were the *elite* power-middle influencers.
 
-### Conceptualization:
-A social network graph is constructed using the influencers and followers. This graph can be used to identify power-middle influencers and other interesting features about the community.
-
-* Number of nodes: 2268840
-* Number of edges: 3582464
-* Number of potential influencers: 1775
 
 ## Modeling
 
-### Assumptions about Top Power-Middle Influencers:
-- They have a **critical mass** following so that enough people will view their content.
-- They **interact** with their community so followers are more likely to like or comment on posts.
+### Assumptions about Elite Power-Middle Influencers:
+To find the elite influencers, I made some assumptions about their Instagram qualities.
+
+- They have a **critical mass** following so that *enough* people will view their content.
+- They **interact** with their community so followers are more likely to like or comment on their posts.
 - They **influence** a distinct community, therefore they are not just a celebrity with millions of random followers.
 - They post **authentic** content and are not obviously marketing in an insincere way.
 
 ### Modeling to Identify Top Power-Middle Influencers:
--**Critical Mass Filter**: influencers must have more than 5000 followers.
+#### Critical Mass Filter: 
+I filtered for influencers who had more than 5000 followers, assuming 5000 followers is *enough*.
 
--**Interaction Score**: equal to the ratio of likes to followers.
+#### Interaction Score:
+The interaction score is equal to the ratio of likes to followers.
 
--**Influencer Score**: equal to eigenvector centrality which gives higher scores to influencers who are connected to other key members of the community.
+#### Influence Score:
+The influence score is equal to eigenvector centrality -- a higher score is given to influencers who are connected to other key members of the community. This also prevents celebrities from rising on the scoreboard because they are connected to many random followers (higher degree centrality) instead of other key members from a very specific community (higher eigenvector centrality).
 
--**Authenticity Score**: inversely proportional to the positive sentiment in their captions with the assumptions that marketing text is often overly positive and followers are more likely to trust influencers that are more candid.
+![Influence Score: Degree Centrality v. Eigenvector Centrality][2]
 
-Those scores are weighted and summed to determine and overall score:
+#### Authenticity Score: 
+The authenticity score is inversely proportional to the positive sentiment in their captions, assuming that marketing text is often overly positive and followers are more likely to trust influencers that are more candid.
+
+![Authenticity Score][3]
+
+#### Overall Score:
+Those scores were weighted and summed to determine and overall score. The top power-middle influencer is [Pamela Shanti Pack](https://www.instagram.com/shantipack/), a professional female rock climber. 
 
 ![Overall Score][1]
 
 ## Evaluation
-Performance was evaluated by:
+To evaluate the performance of this unsupervised learning approach, I:
 
-> Determining if top influencers were already endorsing products, meaning that industry experts had deemed them to be influencers already.
+> Determined if top influencers were already endorsing products, meaning that industry experts had deemed them to be influencers already.
 
-> Checking if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
+> Checked if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
 
-[1]: /img/portfolio/OverallScore.png
+Turns out, every person on the leaderboard was already sponsored in some fashion, and they appeared in the "top results" section at least once over the span of this two-week project. 
+
+## Conclusions and Future Work
+The data pipeline for identifying power-middle influencers on Instagram yielded some promising first-cut results! Network analysis is a powerful way to analyze social media interactions and can be useful for niche marketing campaigns. 
+
+The next steps for this project include expanding the interaction score to include comment-response interactions and averaging an authenticity score for all their captions instead of only the caption for post with the specific hashtag. I would also like to create a scoring methodology for micro-influencers.
 
 ## Want to see more?
 Check out the [code](https://github.com/sdmirch/instagram-influencer-graph) that made this project a reality.
 
 ## Examples {#examples}
-Take a look at some of my favorite power-middle influencers:
+Take a look at some examples of power-middle influencers:
 
 * [briannamadia](https://www.instagram.com/briannamadia/)
 * [negharfonooni](https://www.instagram.com/negharfonooni/)
 * [brokenpinestudio](https://www.instagram.com/brokenpinestudio/)
+
+
+[1]: /img/portfolio/OverallScore.png
+[2]: /img/portfolio/InfluenceScore.png
+[3]: /img/portfolio/AuthenticityScore.png
