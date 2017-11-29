@@ -16,7 +16,7 @@ publishDir = "../sdmirch.github.io"
   description = "Describe your website"
   copyright = "&copy;2017 Sera Mirchandani"
   sidebarAbout = [
-    "I am a data scientist with experience in applied math and engineering, excited to find insights from a sea of data using machine learning, statistical analysis, and data visualization."
+    "I am a data scientist with experience in applied math, engineering, and consulting, excited to derive insights and data-driven business outcomes using machine learning, statistical analysis, and data visualization."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
