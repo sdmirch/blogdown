@@ -5,9 +5,9 @@ title = "About me"
 
 I have a background in engineering and mathematics, and I've been spiraling towards data science for quite some time. I have moved from astrophysics > planetary science > applied mathematics > engineering > environmental engineering > sediment remediation. The problem was that I enjoyed it all. I knew I was looking for something specific that all of those disciplines offered, but what was it? After reflecting on my favorite projects, I found a pretty distinct pattern:
 
-* Researching filtering methodologies to reduce distortions in images of Mars at HiRISE
-* Implementing a process model for a solar desalination system and using a genetic algorithm to optimize system performance
-* Creating an environmental impact and benefit analysis tool
+* Researching filtering methodologies to reduce distortions in images of Mars at HiRISE ([pub](https://www.researchgate.net/publication/318822628_CORRECTING_SPACECRAFT_JITTER_IN_HIRISE_IMAGES?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BNWVkUH78Q2%2BuRMlRGM2rug%3D%3D))
+* Implementing a process model for a solar desalination system and using a genetic algorithm to optimize system performance ([pub](https://www.ncbi.nlm.nih.gov/pubmed/26812853?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BOcFmWcrzQ7mkbhV0qvaG2w%3D%3D))
+* Creating an environmental impact and benefit analysis tool ([pub](http://onlinelibrary.wiley.com/doi/10.1002/ieam.2000/full?lipi=urn:li:page:d_flagship3_profile_view_base_treasury&I6gcvjRKSOOFXIyVVuo11A==))
 
 I realized that I loved anything that included applied math, programming, and creative problem-solving. That seemed like a mega-blanket statement, and I thought that no career would fulfill my interdisciplinary expectations -- until I found **data science**. I attended Galvanize’s 3-month data science immersive, where I had the chance to get my hands dirty with Python/SQL, statistics, data munging and visualization, and machine learning. I graduated in November 2017, and now I’m working on my own projects, teaching myself R, and beefing up my SQL skills.
 
