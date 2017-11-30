@@ -9,7 +9,7 @@ I have a background in engineering and mathematics, and I've been spiraling towa
 * Implementing a process model for a solar desalination system and using a genetic algorithm to optimize system performance ([pub](https://www.ncbi.nlm.nih.gov/pubmed/26812853?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BOcFmWcrzQ7mkbhV0qvaG2w%3D%3D))
 * Creating an environmental impact and benefit analysis tool ([pub](http://onlinelibrary.wiley.com/doi/10.1002/ieam.2000/full?lipi=urn:li:page:d_flagship3_profile_view_base_treasury&I6gcvjRKSOOFXIyVVuo11A==))
 
-I realized that I loved anything that included applied math, programming, and creative problem-solving. That seemed like a mega-blanket statement, and I thought that no career would fulfill my interdisciplinary expectations -- until I found **data science**. I attended Galvanize’s 3-month data science immersive, where I had the chance to get my hands dirty with Python/SQL, statistics, data munging and visualization, and machine learning. I graduated in November 2017, and now I’m working on my own projects, teaching myself R, and beefing up my SQL skills.
+I realized that I loved anything that included applied math, programming, and creative problem-solving. That seemed like a mega-blanket statement, and I thought that no career would fulfill my interdisciplinary expectations -- until I found **data science**. I recently completed a three-month data science immersive at Galvanize, where I got my hands dirty with Python/SQL, statistics, data munging and visualization, and machine learning. Having graduated in November 2017, I'm now working on personal projects, teaching myself R, and beefing up my SQL skills as I look for the perfect company to help grow with my new skill set.
 
 ![This is me][1]
 
