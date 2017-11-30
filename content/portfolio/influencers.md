@@ -24,20 +24,20 @@ How do you find power-middle influencers who will be the most influential to the
 
 Unfortunately there was no beautiful social-media dataset which would allow me to identify power-middle influencers, so I needed to collect the data myself. To do so, I narrowed the scope of the problem by choosing a community I wanted to target (take female climbers for instance). I then collected data on potential power-middle influencers by assuming people who posted content with a specific hashtag (#womenwhoclimb) were attempting to get their messages out into the universe. To estimate the rest of the community, I collected data about people who were influenced by the influencers -- therefore people who followed these potential power-middle influencers. I then amassed this data into an influencer-follower network. 
 
-Turns out, that network was pretty big - 2,268,840 nodes and 3,582,464 edges! However, there were only 1775 unique potential influencers (out of 5000 scraped posts with #womenwhoclimb). The next step was to figure out who were the *elite* power-middle influencers.
+Turns out, that network was pretty big - 2,268,840 nodes and 3,582,464 edges! However, there were only 1775 unique potential influencers (out of 5000 scraped posts with #womenwhoclimb). The next step was to figure out who were the **elite** power-middle influencers.
 
 
 ## Modeling
 
-### Assumptions about Elite Power-Middle Influencers:
-To find the elite influencers, I made some assumptions about their Instagram qualities.
+### Assumptions about Elite Influencers:
+To find the elite power-middle influencers, I made some assumptions about their Instagram qualities.
 
 - They have a **critical mass** following so that *enough* people will view their content.
 - They **interact** with their community so followers are more likely to like or comment on their posts.
 - They **influence** a distinct community, therefore they are not just a celebrity with millions of random followers.
 - They post **authentic** content and are not obviously marketing in an insincere way.
 
-### Modeling to Identify Top Power-Middle Influencers:
+### Modeling to Identify Elite Influencers:
 #### Critical Mass Filter: 
 I filtered for influencers who had more than 5000 followers, assuming 5000 followers is *enough*.
 
@@ -66,12 +66,12 @@ To evaluate the performance of this unsupervised learning approach, I:
 
 > Checked if top influencers on the leaderboard shave posts which show up in the "top results" of the search page for the #womenwhoclimb hashtag, which shows trending content.
 
-Turns out, every person on the leaderboard was already sponsored in some fashion, and they appeared in the "top results" section at least once over the span of this two-week project. 
+Turns out, every person on the leaderboard was already sponsored in some fashion, and they all appeared in the "top results" section at least once over the span of this two-week project. 
 
 ## Conclusions and Future Work
 The data pipeline for identifying power-middle influencers on Instagram yielded some promising first-cut results! Network analysis is a powerful way to analyze social media interactions and can be useful for niche marketing campaigns. 
 
-The next steps for this project include expanding the interaction score to include comment-response interactions and averaging an authenticity score for all their captions instead of only the caption for post with the specific hashtag. I would also like to create a scoring methodology for micro-influencers.
+The next steps for this project include expanding the interaction score to include comment-response interactions and averaging an authenticity score for all captions instead of only the caption for post with the specific hashtag. I would also like to create a scoring methodology for micro-influencers.
 
 ## Want to see more?
 Check out the [code](https://github.com/sdmirch/instagram-influencer-graph) that made this project a reality.
