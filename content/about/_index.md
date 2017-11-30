@@ -15,10 +15,10 @@ I realized that I loved anything that included applied math, programming, and cr
 
 That's me ^
 
-I don’t particularly like writing about myself (my partner tells me I write like a robot), but since this is *my* “about me” page, I figure this is my only opportunity to summarize myself using bullets: 
+I don’t particularly like writing about myself (I have been told that I write like a robot), but since this is *my* “about me” page, I figure this is my only opportunity to summarize myself using bullets: 
 
 * Tucson, AZ -> Seattle, WA, lover of the SW and PNW
-* Hobbies (in no particular order): climbing, hiking, silversmithing, lifting, online shopping and critiquing recommender systems, traveling, eating, yoga-ing(?), and attempting to love running, but not doing so hot on that front
+* Hobbies (in no particular order): climbing, hiking, silversmithing, lifting, online shopping and critiquing recommender systems, traveling, eating, yoga-ing(?), drinking coffee in the sunshine, and attempting to love running, but not doing so hot on that front
 * If I were a superhero I’d be **Question-Woman**
 * INTJ Slytherin Earth-bender
 
