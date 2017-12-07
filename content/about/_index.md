@@ -7,7 +7,7 @@ I have a background in engineering and mathematics, and I've been spiraling towa
 
 * Researching filtering methodologies to reduce distortions in images of Mars at HiRISE ([pub](https://www.researchgate.net/publication/318822628_CORRECTING_SPACECRAFT_JITTER_IN_HIRISE_IMAGES?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BNWVkUH78Q2%2BuRMlRGM2rug%3D%3D))
 * Implementing a process model for a solar desalination system and using a genetic algorithm to optimize system performance ([pub](https://www.ncbi.nlm.nih.gov/pubmed/26812853?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BOcFmWcrzQ7mkbhV0qvaG2w%3D%3D))
-* Creating an environmental impact and benefit analysis tool ([pub](http://onlinelibrary.wiley.com/doi/10.1002/ieam.2000/full?lipi=urn:li:page:d_flagship3_profile_view_base_treasury&I6gcvjRKSOOFXIyVVuo11A==))
+* Creating an environmental impact and benefit analysis tool ([pub](https://onlinelibrarystatic.wiley.com/store/10.1002/ieam.2000/asset/ieam2000.pdf?v=1&t=jawznrbt&s=e492cc8f3a55b91a1993e911f39c01c3b8306960))
 
 I realized that I loved anything that included applied math, programming, and creative problem-solving. That seemed like a mega-blanket statement, and I thought that no career would fulfill my interdisciplinary expectations -- until I found **data science**. I recently completed a three-month data science immersive at Galvanize, where I got my hands dirty with Python/SQL, statistics, data munging and visualization, and machine learning. Having graduated in November 2017, I'm now working on personal projects, teaching myself R, and beefing up my SQL skills as I look for the perfect company to help grow with my new skill set.
 
