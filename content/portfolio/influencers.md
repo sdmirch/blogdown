@@ -39,7 +39,7 @@ To find the elite power-middle influencers, I made some assumptions about their 
 
 ### Modeling to Identify Elite Influencers:
 #### Critical Mass Filter: 
-I filtered for influencers who had more than 5000 followers, assuming 5000 followers is *enough*.
+I filtered for influencers who had more than 5000 followers, assuming 5000 followers is *enough* for someone to be classified as a power-middle influencer.
 
 #### Interaction Score:
 The interaction score is equal to the ratio of likes to followers.
